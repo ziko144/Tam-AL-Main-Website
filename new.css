@@ -1,3 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.kataloq {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.kataloqCarusel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-items {
+  min-width: 100px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.carousel-items img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.kataloqButton {
+  background-color: #fff;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 /* Navbar */
 body {
   font-family: Arial, sans-serif;
