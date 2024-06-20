@@ -214,7 +214,6 @@ body {
 .star {
   margin: 0 2px;
 }
-
 .add-to-cart {
   display: flex;
   justify-content: flex-start;
@@ -474,7 +473,9 @@ body {
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 3rem;
   }
-
+  .as{
+    display: none;
+  }
   
 
   /* *** Start editing below this line *** */
@@ -500,6 +501,12 @@ body {
     .block-2 { grid-area: 3 / 1 / 4 / 2; }
     .block-3 { grid-area: 4 / 1 / 5 / 2; }
     
+    .as{
+      display: inline-block;
+    }
+    .sa{
+      display: none;
+    }
   }
   
   /* banner ad */
